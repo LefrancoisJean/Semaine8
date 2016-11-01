@@ -1,0 +1,148 @@
+/*---------------------------------------------*\
+              Mise en page de mon CV
+\*---------------------------------------------*/
+
+
+body{
+  background-color: rgb(233,235,238);
+  font-family: "liberation Serif", serif;
+  width: 100%;
+  margin: auto;
+  background: url(../images/symphony.png) repeat fixed;
+}
+
+.jumbotron{
+  background: inherit;
+  padding-top: 100px;
+}
+
+.container{
+  max-width: 960px;
+}
+/* entete de la page */
+
+.entete{
+    background: url(../images/skulls.png)repeat fixed;
+	  font-size: 1.5em;
+	  color: rgb(17,107,138);
+    text-shadow: 3px 3px 3px rgb(99,124,138);
+    margin-top: auto;
+}
+
+.titre{
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+/* Corps de la page */
+
+main {
+
+    padding: 15px 15px 15px 15px;
+}
+
+h2 {
+  font-size: 1.3em;
+  text-align: justify;
+  font-weight: bold;
+  border-bottom: 3px groove rgb(32,77,118);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+h4{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.cadre{
+  border-top: 2px dotted rgb(32,77,118);
+  border-left: 2px dotted rgb(32,77,118);
+  padding-left: 5px;
+}
+
+ul {
+  padding: 10px 10px 10px 10px;
+  margin-right: 20px;
+  text-align: justify;
+  list-style-type: square;
+}
+
+td:first-child{
+  width: 250px;
+}
+
+td:nth-child(0n+2){
+  width:20px;
+}
+
+.langue{
+  margin-bottom: 50px;
+}
+
+
+/* Pied de page */
+
+.pieds_de_page{
+    background: url(../images/wov.png)repeat fixed;
+    padding: 10px 10px 10px 10px;
+}
+
+.coordonnee{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+/*Personalisation du formulaire*/
+
+form{
+  margin-top: 3%;
+  border-top: 2px solid rgb(167,163,126);
+}
+
+.formulaire{
+  margin-top: 3%;
+  text-align: center;
+}
+
+label{
+  width: 10%;
+  text-align: center;
+}
+input[type="text"]{
+  width:22%;
+  border-radius: 3px;
+}
+
+textarea{
+  margin: 5% 0 5% 0;
+  width: 100%;
+  height: 10%;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover{
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+input[type="reset"]:hover{
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+/* Personalisation des liens */
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000080;
+    text-decoration: underline;
+}
